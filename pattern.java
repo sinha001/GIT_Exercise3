@@ -4,7 +4,7 @@ public class pattern{
         int noOfExec = 5;
         for(int i = 0;i<noOfExec;i++)
         {
-            for(int j= 0;j<noOfExec;j++)
+            for(int j= 0;j<=i;j++)
             {
                 System.out.print("*");
             }
